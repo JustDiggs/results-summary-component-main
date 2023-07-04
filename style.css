@@ -1,0 +1,116 @@
+body{
+  background-color:white;
+  font-family: 'Hanken Grotesk', Courier, monospace;
+  color: rgb(12, 20, 46);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  padding-left: 40rem;
+  padding-top: 12.5rem;
+}
+.results{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  width: 20rem;
+  height: 30rem;
+  border-radius: 25px;
+}
+.results-title{
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+  padding: 1.5rem;
+}
+.final{
+  padding: 3rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 7rem;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+} 
+.final-score{
+  font-weight: 700;
+  font-size: 60px;
+}
+.out-of{
+  color: hsl(241, 100%, 89%);
+}
+p{
+  color: hsl(241, 100%, 89%);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+h1{
+  padding-top: 1rem;
+}
+.summary{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.headers{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.summary-title{
+  color: hsl(224, 30%, 27%);
+  font-size: 18px;
+  font-weight: 800;
+}
+.sub-titles{
+  flex-direction: row;
+  font-weight: 800;
+  
+}
+.c1,.c2,.c3,.c4{
+  padding: 1rem;
+  border-radius: 10px;
+}
+.c1{
+  background-color: hsla(0, 100%, 67%,0.1);
+}
+.c2{
+  background-color: hsla(39, 100%, 56%,0.1);
+}
+.c3{
+  background-color: hsla(166, 100%, 37%,0.1);
+}
+.c4{
+  background-color: hsla(234, 85%, 45%,0.1);
+}
+.words{
+  padding-right:8rem;
+}
+.btn{
+  position: absolute;
+  font-family: 'Hanken Grotesk', Courier, monospace;
+  color: hsl(221, 100%, 96%);
+  text-align: center;
+  width: 15rem;
+  height: 3rem;
+  background-color:hsl(224, 30%, 27%);
+  border-radius: 28px;
+  border: 0;
+  margin-top: 24.5rem;
+  margin-left: 2rem;
+}
+.title2{
+  position: absolute;
+  font-weight: 800;
+  font-size: 18px;
+  color: hsl(224, 30%, 27%);
+}
+.btn:hover{
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.scores{
+  font-weight: 800;
+  padding: 1.5rem;
+}
